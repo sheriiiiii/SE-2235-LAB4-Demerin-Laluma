@@ -13,3 +13,4 @@ This document describes how to set up and run API tests for the backend.
 2.  Install dependencies: `npm install`.
 3.  Install testing dependencies: `npm install jest supertest mongodb-memory-server --save-dev` and `npm install --save-dev 
 4.  Run tests: `npm test`.
+5.  Modify the package.json and change the test into "test": "jest"
