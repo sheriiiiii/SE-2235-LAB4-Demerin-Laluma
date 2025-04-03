@@ -1,5 +1,5 @@
 import request from 'supertest';
-import app from '../server.js'; // Note the .js extension
+import app from '../server.js';
 import mongoose from 'mongoose';
 
 
