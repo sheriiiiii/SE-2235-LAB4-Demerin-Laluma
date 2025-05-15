@@ -1,16 +1,32 @@
-# API Testing Setup
+# SE 2235-40 Lab 4 – E2E Testing with Cypress
 
-This document describes how to set up and run API tests for the backend.
+## 📚 Lab Description
 
-## Prerequisites
+This lab implements End-to-End (E2E) testing using **Cypress**. 
 
-* Node.js and npm installed.
-* MongoDB installed (or use MongoDB Atlas).
+---
 
-## Setup
+## 🧰 Tech Stack
 
-1.  Clone the repository and navigate to the `backend` directory.
-2.  Install dependencies: `npm install`.
-3.  Install testing dependencies: `npm install jest supertest mongodb-memory-server --save-dev` and `npm install --save-dev 
-4.  Run tests: `npm test`.
-5.  Modify the package.json and change the test into "test": "jest"
+- React
+- React Router
+- Axios
+- Cypress (E2E Testing)
+
+---
+
+## 🛠️ Setup
+
+## 1. Clone the repository and navigate to the `frontend` directory
+## 2. Install dependencies.
+## 3. Install Cypress: `npm install cypress --save-dev`
+## 4. Make sure your app is running before testing: `npm run dev` or `npm start`
+## 5. On another terminal, open Cypress to run the test: `npx cypress open`
+## 6. Choose E2E testing.
+    -Select E2E Testing.
+    -Choose your preferred browser (Chrome, Edge, etc.)
+## 7. Run your tests.
+    -Click the files under `e2e`and run the tests.
+
+
+
